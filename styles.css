@@ -1,0 +1,40 @@
+/*
+    Author: Abbas Abdulmalik
+    Creation Date: 
+    Title: 
+    Revised: 
+    Purpose: 
+    Notes:
+*/
+#frontPanel{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: left 0.5s ease;
+    background-color: lightblue;
+    z-index: 1;
+}
+.banner{
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 2rem;
+    color: lightblue;
+    background-color: teal;
+    font-family: sans-serif;
+    font-weight: bold;
+    z-index: 2;
+}
+.banner-top{
+    top:0;
+}
+#menu{
+    float: left;
+    padding-left:10px;
+    cursor: pointer;
+}
